@@ -1,0 +1,7 @@
+1.//https://www.codewars.com/kata/training-js-number-42-regular-expression-equals-and/train/javascript
+1.const regex=/\d(?=(\d{3})+$)/g;
+function addCommas(money,reg){
+  return money.replace(reg,x=>x+",");
+}
+2.//https://www.codewars.com/kata/training-js-number-40-regular-expression-and/train/javascript
+2.var regex=/(http:\/\/|https:\/\/)[a-z0-9.]+\.(com|net)/gi;
